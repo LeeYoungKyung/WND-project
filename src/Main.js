@@ -54,6 +54,7 @@ function Main() {
   return (
     <MainWrapper>
       <MainContent>
+        {/* 순서대로 날씨 옷추천 별자리 */}
         <Main1>Main 1</Main1>
         <Main2>Main 2</Main2>
         <Main3>Main 3</Main3>
