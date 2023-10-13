@@ -7,6 +7,7 @@ import d from "./img/d.png";
 import a from "./img/a.png";
 import y from "./img/y.png";
 
+// i
 const MainWrapper = styled.div`
   display: flex;
   flex-direction: column;
