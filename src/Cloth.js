@@ -86,7 +86,7 @@ const Message = styled.div`
   position: absolute;
   top: 10px;
   left: 10px;
-  padding: 10px;
+
   border-radius: 5px;
   z-index: 2;
 `;

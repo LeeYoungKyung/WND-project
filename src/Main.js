@@ -14,7 +14,9 @@ const MainWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding: 20px;
+
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 const MainContent = styled.div`
@@ -27,6 +29,7 @@ const MainContent = styled.div`
 
 const Main1 = styled.div`
   background: linear-gradient(#80b3ff 70%, #4e5e7a);
+
   padding: 10px;
   flex: 1;
   min-height: 100vh;

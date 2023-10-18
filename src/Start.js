@@ -1,14 +1,13 @@
 import React, { useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
-/// Import OpenAIApi and CreateCompletionRequest
 
 const MainWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 const MainContent = styled.div`
@@ -30,48 +29,10 @@ const Main3 = styled.div`
 `;
 
 function Star() {
-  // const [music, setMusic] = useState({ title: "", singer: "" });
-
-  // // OpenAI API 호출
-  // const fetchOpenApi = useCallback(() => {
-  //   const configuration = new Configuration({
-  //     apiKey: process.env.REACT_APP_OPENAI_API_KEY, // Fix the API key reference
-  //   });
-
-  //   const testPrompt = "recommend me one female indie song";
-
-  //   const api = new OpenAIApi(configuration);
-
-  //   api
-  //     .createCompletion(
-  //       CreateCompletionRequest.fromObject({
-  //         model: "text-davinci-003",
-  //         prompt: testPrompt,
-  //         temperature: 0,
-  //         max_tokens: 150,
-  //       })
-  //     )
-  //     .then(res => {
-  //       const { choices } = res.data;
-  //       const [title, singer] = choices[0].text.split(" by ");
-
-  //       setMusic({ title, singer });
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //   fetchOpenApi(); // 컴포넌트가 마운트될 때 호출
-  // }, []);
-
-  // const { title, singer } = music;
   return (
     <MainWrapper>
       <MainContent>
-        <Main3>
-          {/* <div className="App">
-            {title} - {singer} 
-  </div>*/}
-        </Main3>
+        <Main3></Main3>
       </MainContent>
     </MainWrapper>
   );
